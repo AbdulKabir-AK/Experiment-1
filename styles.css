@@ -1,0 +1,125 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fffafa;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Catalog Page styling */
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.product-card button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.product-card img {
+    max-width: 100%;
+}
+
+/* Cart Page styling */
+.cart {
+    width: calc(66.66% - 20px);
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.cart-item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.cart-item p {
+    margin: 20px;
+}
+
+.cart-item h3 {
+    margin: 20px;
+}
+
+.cart-item img {
+    max-width: 60px;
+    margin-right: 10px;
+}
+
+.cart-item button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 850px;
+    top: 519px;
+}
+
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.cart-total button {
+    position: absolute;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.8px 2.8px;
+    cursor: pointer;
+    left: 850px;
+    top: 582px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: red;
+    text-align: center;
+    padding: 10px 0;
+}
